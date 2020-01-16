@@ -1,0 +1,77 @@
+#departments{
+    // margin-bottom: 700px;
+    // margin-top: 112px;
+    padding-top: 78px;
+    padding-bottom: 80px;
+    // padding-bottom: 59px;
+    text-align: center;
+    // background-color: rgba(243, 243, 243, 0.883);
+    background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url("../photos/12.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    h2{
+        color: white;
+        // font-weight: 900;
+        font-style: italic;
+    }
+    .info{
+        margin-top: 50px;
+        display: flex;
+        padding-bottom: 82px;
+        h5{
+            color: white;
+            font-weight: bolder;
+        }
+        p{
+            margin-top: 50px;
+            color: rgb(255, 243, 243);
+            font-size: 17px;
+            margin-bottom: 50px;
+        }
+        .cols{
+            position: absolute;
+            bottom: -90px;
+            a{
+                // background: #18afd3;
+                display: flex;
+                justify-content: center;
+                color: white;
+                font-size: 16px;
+                text-decoration: none;
+                text-shadow: none;
+                padding:20px;
+                &:active{
+                    outline: none;
+                }
+                &:hover{
+                    transition: .2s ease-in-out;
+                    color: #f46c3f;
+                }
+            }
+        }
+
+    }
+}
+@media (max-width:767px){
+    #departments{
+        .info{
+            .cols{
+                position: relative;
+                bottom: 0px;
+                // bottom: -90px;
+                // border-radius: 10px;
+                // line-height: 24px;
+            }
+        }
+    }
+};
+@media (min-width:768px)and (max-width:1130px){
+    #departments{
+        .info{
+            .cols{
+                width:79%;
+            }
+        }
+    }
+}

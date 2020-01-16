@@ -1,0 +1,108 @@
+#footer{
+    margin-top: 8px;
+    background: #010a31;
+    padding: 60px 0px;
+    // margin-bottom: 200em;
+    // .container{
+        display: flex;
+        justify-content: space-between;
+        p{
+            position: relative;
+            top: 20px;
+            text-align: center;
+            color: white;
+        }
+        img{
+            width: 15%;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            transition: all .1s ease-in-out;
+            &:hover{
+                color: #f46c3f;
+            }
+        }
+        .col-md-4   {
+            float: left;
+            text-align: center;
+        }
+        #social.col-md-4{
+            margin-top: 36px;
+            text-align: center;
+            a{
+                text-decoration: none;
+            }
+            span{
+                cursor: pointer;
+                margin-right: 25px;
+                i{
+                    margin-bottom: 10px;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    border-radius: 50%;
+                    background: white;
+                    font-size: 18px;
+                    color: #868686;
+                    border: none;
+                    text-align: center;
+                }
+            }
+            span:hover i{
+                transition: all .2s ease-in-out;
+                background: #f46c3f;
+                color: white;
+            }
+        }
+    // }
+}
+
+@media (min-width:768px)and (max-width:826px){
+    #footer{
+        img{
+            margin-top: 29px;
+            width:50%;
+        }   
+    }
+}
+@media (min-width:826px)and (max-width:930px){
+    #footer{
+        img{
+            margin-top: 29px;
+            width:35%;
+        }   
+    }
+}
+@media (min-width:930px)and (max-width:1043px){
+    #footer{
+        img{
+            margin-top: 33px;
+            width:30%;
+        }   
+    }
+}
+@media (min-width:1043px)and (max-width:1280px){
+    #footer{
+        img{
+            margin-top: 33px;
+            width:25%;
+        }   
+    }
+}
+@media (min-width:1280px)and (max-width:1413px){
+    #footer{
+        img{
+            margin-top: 28px;
+            width:23%;
+        }   
+    }
+}
+@media (min-width:1413px)and (max-width:1915px){
+    #footer{
+        img{
+            margin-top:12px;
+            width:23%;
+        }   
+    }
+}

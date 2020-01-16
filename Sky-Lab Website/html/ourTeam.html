@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sky Lab Ailesi</title>
+    <!-- Icon -->
+    <link rel="icon" href="../photos/skylab.png">
+    <!-- Bootstrap css -->
+    <!-- <link rel="stylesheet" href="../bootstrap-4.3.1-dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Font awesome css -->
+    <!-- <link rel="stylesheet" href="../fontawesome/css/all.css"> -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/all.css">   
+    <!-- Jquery text effect styles-->
+    <link href="../assets/animate.css" rel="stylesheet">
+    <link href="../assets/style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="top">
+        <!--header include skylab logo and phone number-->
+       <div id="header">
+           <div class="row  col-md-12 ">
+               <div class="col-md-5">
+                   <a href="../index.html">
+                       <!-- skylab logo -->
+                       <img src="../photos/skylab.png" alt="">
+                   </a>
+               </div>
+               <div class="col-md-7">
+                   <div class="phone">
+                       <div class="left">
+                           <span>
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            </span>
+                       </div>
+                       <div class="right">
+                           <!-- contact number -->
+                           <a class="phn" href="#">
+                               +90 552 499 33 28
+                           </a>
+                       </div>
+                   </div>
+                   <div class="marker">
+                       <div class="left">
+                           <span>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          </span>
+                       </div>
+                       <div class="right">
+                           <a href="#map">
+                            Çifte Havuzlar, YTÜ-Davutpaşa Kampüsü, 34220 Esenler/İstanbul
+                           </a>
+                       </div>
+                   </div>
+               </div>
+               <div class="menu">
+                    <ul class="ulLi"> 
+                        <li>
+                            <a href="../index.html">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../index.html">
+                                DEPARTMANLARIMIZ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./activities.html">
+                                ETKİNLİKLERİMİZ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./aboutUs.html">
+                                HAKKIMIZDA
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="./ourTeam.html">
+                                EKİBİMİZ    
+                            </a>
+                        </li>
+                        <li >
+                            <a href="./contact.html">
+                                İLETİŞİM
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div> 
+         <!-- menu will be used in responsive design -->
+         <div id="menu">
+            <div class="icon">
+                <span>
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </span>
+            </div>
+            <div class="skylab">
+                <img src="../photos/skylab.png" alt="">
+            </div>
+        </div>
+        <!-- modal menu which will be used in responsive design -->
+        <div id="nonVisible">
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="../index.html">
+                        DEPARTMANLARIMIZ
+                    </a>
+                </li>
+                <li>
+                    <a href="./activities.html">
+                        ETKİNLİKLERİMİZ
+                    </a>
+                </li>
+                <li>
+                    <a href="./aboutUs.html">
+                        HAKKIMIZDA
+                        
+                    </a>
+                </li>
+                <li>
+                    <a href="./ourTeam.html">
+                        EKİBİMİZ
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/contact.html">
+                        İLETİŞİM
+                    </a>
+                </li>
+            </ul>
+            <div class="exit">
+                <span>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </span>
+            </div>
+        </div>
+
+        <!-- Text with jquery effects -->
+        <div class="grid grid-pad">
+            <div class="playground grid">
+              <div class="col-1-1 viewport">
+                  <div class="tlt">
+                    <ul class="texts" style="display: none">
+                      <li data-id="wizard">SKY LAB AİLESİNE HOŞGELDİNİZ!</li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="col-1-1 controls" style="padding-right: 0">
+                <form class="grid grid-pad">
+                </form>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="team">
+        <section class="our-webcoderskull padding-lg">
+            <div class="container">
+              <div class="row heading heading-icon">
+                  <h2>Sky Lab Ailesi</h2>
+              </div>
+              <ul class="row">
+                 <!-- Çağrı Kılıç -->
+                 <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Çağrı Kılıç">
+                        </figure>
+                      <h3>Çağrı<br>Kılıç</h3>
+                      <p>Denetim Kurulu <br> Başkanı</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 4. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/ytuskylab/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- ALİ BARIŞ ZENGİN -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="ALİ BARIŞ ZENGİN">
+                        </figure>
+                      <h3>Ali  Barış<br> Zengin</h3>
+                      <p>Yönetim Kurulu <br> Başkanı</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 2. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alibariszengin@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ali-bar%C4%B1%C5%9F-zengin-7b6387175/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                </li>
+                 <!-- Cihat Bozkurt Cüni -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="CİHAT BOZKURT CÜNİ">
+                        </figure>
+                      <h3>Cihat Bozkurt <br>Cüni</h3>
+                      <p>Yönetim Kurulu <br> Başkan Yardımcısı</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 4. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=cihatcuni@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/cihatcni/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Doğa Bahar -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="DOĞA BAHAR">
+                        </figure>
+                      <h3>Doğa <br>Bahar</h3>
+                      <p>Yönetim Kurulu <br> Sekreteri</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 1. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dogabahar@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/do%C4%9Fa-bahar-706b63197/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Zehra Sav -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="ZEHRA SAV">
+                        </figure>
+                      <h3>Zehra <br>Sav</h3>
+                      <p>Yönetim Kurulu <br>Saymanı</p><br>
+                      <p>Yıldız Teknik Üniversitesi EHM 2. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=zehrasav@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/zehra-sav-a09291173/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Hatice Demir -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Hatice Demir">
+                        </figure>
+                      <h3>Hatice <br>Demir</h3>
+                      <p>Yönetim Kurulu <br> Genel Üyesi</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 2. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=haticedemir@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/hatice-demir-421996174/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- ONUR ZORLU -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Onur Zorlu">
+                        </figure>
+                      <h3>Onur <br>Zorlu</h3>
+                      <p>Altyapı <br> Koordinatörü</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 2. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=onurzorlu@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/onur-zorlu-5a73b2186/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- ASYA KILIC -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Asya Kılıç">
+                        </figure>
+                      <h3>Asya<br>Kılıç</h3>
+                      <p>Altyapı <br> Koordinatörü</p><br>
+                      <p>Yıldız Teknik Üniversitesi Fizik Müh. 1. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=asyakilic@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/asya-k%C4%B1l%C4%B1%C3%A7-4a5023187/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- OMER FARUK SALMAN -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Ömer Faruk Salman">
+                        </figure>
+                      <h3>Ömer Faruk<br>Salman</h3>
+                      <p>Sosyal Sorumluluk <br> Koordinatörü</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 2. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=salman@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/ytuskylab/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                 <!-- ZEHRA GÖL  -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Zehra Göl">
+                        </figure>
+                      <h3>Zehra<br>Göl</h3>
+                      <p>Sosyal Medya/Etkinlik <br> Koordinatörü</p><br>
+                      <p>Yıldız Teknik Üniversitesi Matematik Müh. 1. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=zehraagol@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/zehra-g%C3%B6l-678965187/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Huma Bilgin -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Onur Zorlu">
+                        </figure>
+                      <h3>Hüma <br>Bilgin</h3>
+                      <p>Yazılım Ekibi <br> Koordinatörü</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 2. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=humabilgin@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/h%C3%BCma-bilgin-47762a18a/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Kamran Balayev -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Kamran Balayev">
+                        </figure>
+                      <h3>Kamran <br>Balayev</h3>
+                      <p>Yazılım Ekibi <br>Teknik Danışmanı</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 3. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kamranbalayev@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/kamran-balayev-1bb165157/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Berk Kiras -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Berk Kıras">
+                        </figure>
+                      <h3>Berk<br> Kıras</h3>
+                      <p>Siber Güvenlik <br> Koordinatörü</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 2. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=berkkiras@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/berk-k%C4%B1ras-61b569125/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Tolga Yavuz --> 
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Tolga Yavuz">
+                        </figure>
+                      <h3>Tolga<br> Yavuz</h3>
+                      <p>Oyun Programlama <br> Koordinatörü</p><br>
+                      <p>Yıldız Teknik Üniversitesi Metalurji Müh. 2. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tockz@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/ytuskylab/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Alper Reha Yazgan -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Alper Reha Yazgan">
+                        </figure>
+                      <h3>Alper Reha <br>Yazgan</h3>
+                      <p>Proje <br> Koordinatörü</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 2. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alperreha@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/alperreha/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Kasim Guney -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Kasim Guney">
+                        </figure>
+                      <h3>Kasım<br>Güney</h3>
+                      <p>Donanım Ekibi <br> Koordinatörü</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 1. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kasim@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/ytuskylab/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Hatice Budak -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Hatice Budak">
+                        </figure>
+                      <h3>Hatice<br>Budak</h3>
+                      <p>İletişim Tasarımı<br> Koordinatörü</p><br>
+                      <p>Yıldız Teknik Üniversitesi İletişim Tasarımı 2. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=haticebudak@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/hatice-budak-066625161/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Osman Bahtiyar -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Osman Bahtiyar">
+                        </figure>
+                      <h3>Osman<br>Bahtiyar</h3>
+                      <p>Seminer Ekibi<br> Koordinatörü</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 2. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=osmanbahtiyar@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/osman-bahtiyar-100661147/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Sıla Çifçi  -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt=" Sıla Çifçi">
+                        </figure>
+                      <h3>Sıla<br>Çifçi</h3>
+                      <p>Seminer Ekibi<br> Koordinatörü</p><br>
+                      <p>Yıldız Teknik Üniversitesi İngilizce Öğret. 2. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/ytuskylab/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Özlem Şahin -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Özlem Şahin">
+                        </figure>
+                      <h3>Özlem<br>Şahin</h3>
+                      <p>Seminer Ekibi<br> Sekreteri</p><br>
+                      <p>Yıldız Teknik Üniversitesi BÖTE  Hazırlık</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ozlemsahin@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/%C3%B6zlem-%C5%9Fahin-292bb0197/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <!-- Hasan Yunus Sarıoğlu  -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt=" Sıla Çifçi">
+                        </figure>
+                      <h3>Hasan Yunus<br>Sarıoğlu</h3>
+                      <p>Seminer Ekibi<br> Networker</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 1. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/ytuskylab/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                 <!-- Havva Bulut  -->
+                 <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Havva Bulut">
+                        </figure>
+                      <h3>Havva <br>Bulut</h3>
+                      <p>Seminer Ekibi<br> Networker</p><br>
+                      <p>Yıldız Teknik Üniversitesi Kimya Müh. Hazırlık</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=havvabulut@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/havva-bulut-ab569b198/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                </li>
+                <!-- Oğuzhan Ercan  -->
+                <li class="col-12 col-md-6 col-lg-3">
+                    <div class="cnt-block equal-hight" style="height: 450px;">
+                      <figure>
+                        <img src="../photos/SkyLab Logo -  7.png" alt="Oğuzhan Ercan">
+                        </figure>
+                      <h3>Oğuzhan<br> Ercan</h3>
+                      <p>Eğitim Ekibi<br>Koordinatörü</p><br>
+                      <p>Yıldız Teknik Üniversitesi Bilgisayar Müh. 1. Sınıf</p>
+                      <ul class="follow-us clearfix">
+                        <li>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=oguzhan@yildizskylab.com">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/o%C4%9Fuzhan-ercan-506266198/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+              </ul>
+            </div>
+        </section>
+    </div>
+
+
+
+    
+    <!-- Footer -->
+    <div id="footer">
+        <!-- <div class="container"> -->
+            <div class="col-md-12">
+                <div class="col-md-4">
+                    <img src="../photos/skylab.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        Yıldız Sky Lab Kulübü  ©2020 Tüm Hakları Saklıdır
+                        <br><br>
+    
+                        <b>
+                            <i>
+                                 By <a href="https://www.linkedin.com/in/kamran-balayev-1bb165157/">
+                                    Kamran E. Balayev
+                                 </a>
+                            </i>
+                        </b>
+                    </p>
+                </div>
+                <div class="col-md-4" id="social">
+                    <a href="https://www.facebook.com/ytuskylab/">
+                        <span>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/ytuskylab/">
+                        <span>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/company/ytuskylab/">
+                        <span>
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </span>
+                    </a>
+
+                    <a href="https://twitter.com/ytuskylab?lang=en">
+                        <span>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        <!-- </div> -->
+    </div> 
+    
+</body>
+</html>
+<!--jquery-->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<!--bootstrap-->
+<!-- <script src="../bootstrap-4.3.1-dist/js/bootstrap.min.js"></script> -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<script src="../assets/jquery.fittext.js"></script>
+<script src="../assets/jquery.lettering.js"></script>
+<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+
+<!-- Jquery textillate -->
+<script src="../js/jquery.textillate.js"></script>
+<!-- Jquery text effect js -->
+<script src="../js/jqueryTextEffect.js"></script>
+<!-- Main js -->
+<script src="../js/main.js"></script>

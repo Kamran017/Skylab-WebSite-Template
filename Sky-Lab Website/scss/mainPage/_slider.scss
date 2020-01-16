@@ -1,0 +1,19 @@
+#slider{
+    .sld{
+        padding: 0 20em;
+        img{
+            border-radius: 10px;
+        }
+    }
+}
+
+@media (max-width:1530px)and (max-width:1760px){
+    #slider{
+        .sld{
+            padding: 0 0em;
+            img{
+                border-radius: 0px;
+            }
+        }
+    }
+}

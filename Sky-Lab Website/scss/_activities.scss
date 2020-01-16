@@ -1,0 +1,101 @@
+@import "./mainPage/header";
+@import "./mainPage/header";
+$white:rgb(251, 251, 251) ;
+
+#work{
+    margin-bottom: 50px;
+    .container{
+        .header{
+            margin: 40px 0px;
+            text-align: center;
+            p{
+                text-transform: capitalize;
+                font-size: 30px;
+                font-weight: bold;
+                color: rgb(9, 15, 41);
+            }
+        }
+        ul{
+            list-style: none;
+            text-align: center;
+            padding: 0 12px;
+            li{
+                cursor: pointer;
+                padding: 2.5px;
+                font-size: 15.5px;
+                border-radius: 2px;
+                margin-bottom: 4px;
+                &.active{
+                    transition: all .3s ease-in-out;
+                    color: $white;
+                    background: rgb(9, 15, 41);
+                }
+            }
+        }
+        .content{
+            .all, .develop, .design,.photograph {
+                margin-bottom: 10px;
+            }
+            .tabItem{
+                display: none;
+                img{
+                    width: 100%;
+                    margin-bottom: 10px;
+                    margin-right: 10px;
+                }
+                 &.active{
+                    display: block;
+                    animation: 1s disp forwards;
+                }
+                @keyframes disp{
+                 0%{
+                    transform: scale(0)
+                 }
+                   100%{
+                       transform: scale(1)
+                   }
+                }
+            } 
+        }
+    }
+}
+
+
+// Responsive design stars
+
+@media (min-width:749px){
+    .header{
+        p{
+            font-size: 50px !important;
+        }
+    }
+    ul.category{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        li{
+            margin-right: 20px;
+            padding: 8.5px 20px!important;  
+        }
+    }
+    .active{
+        display: flex ;
+        flex-direction: row;
+        flex-wrap: wrap;
+        img{
+            position: relative;
+            left: 49px;
+            width: 40% !important;
+        }
+    }
+}
+
+@media (min-width:806px){
+     .active{
+        img{
+            left: 87px !important;
+        }
+    }
+}
+
+// Responsive design ends

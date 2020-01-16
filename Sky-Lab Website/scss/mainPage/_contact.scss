@@ -1,0 +1,39 @@
+#contact{
+    padding-top: 100px;
+    padding-bottom: 45px;
+    .container-fluid{
+        .col-md-4{
+            float: left;
+            margin-bottom: 75px;
+        }
+    }
+    span{
+        i{
+            margin-top: 4px;
+            font-size: 30px;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: #868686;
+            text-align: center;
+            line-height: 68px;
+            color: white
+        }
+    }
+    .phone, .marker, .envolpe {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        a{
+            position: relative;
+            top:20px;
+            color:  #434445;
+            outline: none;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        a:hover{
+            color: #2a2b2b;
+        }
+    }
+}

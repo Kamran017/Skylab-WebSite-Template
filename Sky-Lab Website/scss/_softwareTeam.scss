@@ -1,0 +1,90 @@
+@import "./mainPage/header";
+@import "./mainPage/footer";
+html {
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    background-color: #f0ece8;
+}
+#aboutTeam{
+    margin-top: 25px;
+    .container{
+        .txt{
+          font-size: 20px;
+            h2{
+                text-align: center;
+                font-style: italic;
+                span{
+                  color:#f46c3f ;
+                }
+            }
+            .info{
+                padding: 20px 60px;
+            }
+        }
+    }
+}
+#team{
+    .row{
+        display: flex;
+        justify-content: center;
+          .column {
+            display: block;
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+          }
+          
+          .card {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            img{
+                border-radius: 10px;
+            }
+          }
+          
+          .container {
+            padding: 0 16px;
+          }
+          
+          .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+          
+          .title {
+            color: grey;
+          }
+          
+          .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            margin:20px 0;
+          }
+          
+          .button:hover {
+            background-color: #555;
+          }
+    }
+}
+@media screen and (max-width: 650px) {
+    #team{
+        .column {
+            width: 100%;
+            display: block;
+          }
+    }
+}
