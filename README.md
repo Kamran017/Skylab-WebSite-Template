@@ -1,2 +1,2 @@
 # Skylab-WebSite-Template
-https://yildizskylab.com/
+http://yildizskylab.com/
